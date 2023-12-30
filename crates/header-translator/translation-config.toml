@@ -1223,6 +1223,16 @@ setColorspace = { skipped = true }
 [class.OSALanguage.methods]
 initWithComponent = { skipped = true }
 componentInstance = { skipped = true }
+[class.CBPeripheralManager.methods.initWithDelegate_queue]
+skipped = true
+[class.CBPeripheralManager.methods.initWithDelegate_queue_options]
+skipped = true
+[class.CBCentralManager.methods.initWithDelegate_queue]
+skipped = true
+[class.CBCentralManager.methods.initWithDelegate_queue_options]
+skipped = true
+[protocol.CBCentralManagerDelegate.methods.centralManager_didDisconnectPeripheral_timestamp_isReconnecting_error]
+skipped = true
 [class.OSALanguageInstance.methods.componentInstance]
 skipped = true
 # Needs `dispatch_queue_t`
