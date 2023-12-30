@@ -124,6 +124,14 @@ maccatalyst = "13.0"
 ios = "9.0"
 watchos = "2.0"
 
+[library.CoreBluetooth]
+imports = ["AppKit", "Foundation"]
+macos = "10.10"
+maccatalyst = "13.0"
+ios = "5.0"
+tvos = "9.0"
+watchos = "4.0"
+
 [library.CoreData]
 imports = ["Foundation"]
 # Temporary, since some structs and statics use these

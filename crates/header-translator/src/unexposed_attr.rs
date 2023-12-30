@@ -84,6 +84,7 @@ impl UnexposedAttr {
             // from the method call, though it's rare enough that it's
             // probably not really worth the effort.
             "__unused" => None,
+            "CB_CM_API_AVAILABLE" => None,
             // We assume that a function is inline if it has a body, so not
             // interesting.
             "NS_INLINE" => None,
@@ -114,6 +115,7 @@ impl UnexposedAttr {
             | "MP_UNAVAILABLE_BEGIN"
             | "MP_UNAVAILABLE"
             | "NS_AVAILABLE_MAC"
+            | "NS_AVAILABLE_IOS"
             | "NS_AVAILABLE"
             | "NS_CLASS_AVAILABLE_MAC"
             | "NS_CLASS_AVAILABLE"

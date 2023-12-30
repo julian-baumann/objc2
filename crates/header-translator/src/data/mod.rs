@@ -19,6 +19,7 @@ data! {
     mod CloudKit;
     mod Contacts;
     mod CoreAnimation;
+    mod CoreBluetooth;
     mod CoreData;
     mod CoreLocation;
     mod CoreWLAN;

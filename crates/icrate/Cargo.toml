@@ -1986,6 +1986,65 @@ CoreAnimation_all = [
     "CoreAnimation_CATransition",
     "CoreAnimation_CAValueFunction",
 ]
+CoreBluetooth = [
+    "AppKit",
+    "Foundation",
+]
+CoreBluetooth_CBATTRequest = []
+CoreBluetooth_CBAttribute = []
+CoreBluetooth_CBCentral = [
+    "CoreBluetooth_CBPeer",
+]
+CoreBluetooth_CBCentralManager = [
+    "CoreBluetooth_CBManager",
+]
+CoreBluetooth_CBCharacteristic = [
+    "CoreBluetooth_CBAttribute",
+]
+CoreBluetooth_CBDescriptor = [
+    "CoreBluetooth_CBAttribute",
+]
+CoreBluetooth_CBL2CAPChannel = []
+CoreBluetooth_CBManager = []
+CoreBluetooth_CBMutableCharacteristic = [
+    "CoreBluetooth_CBCharacteristic",
+]
+CoreBluetooth_CBMutableDescriptor = [
+    "CoreBluetooth_CBDescriptor",
+]
+CoreBluetooth_CBMutableService = [
+    "CoreBluetooth_CBService",
+]
+CoreBluetooth_CBPeer = []
+CoreBluetooth_CBPeripheral = [
+    "CoreBluetooth_CBPeer",
+]
+CoreBluetooth_CBPeripheralManager = [
+    "CoreBluetooth_CBManager",
+]
+CoreBluetooth_CBService = [
+    "CoreBluetooth_CBAttribute",
+]
+CoreBluetooth_CBUUID = []
+CoreBluetooth_all = [
+    "CoreBluetooth",
+    "CoreBluetooth_CBATTRequest",
+    "CoreBluetooth_CBAttribute",
+    "CoreBluetooth_CBCentral",
+    "CoreBluetooth_CBCentralManager",
+    "CoreBluetooth_CBCharacteristic",
+    "CoreBluetooth_CBDescriptor",
+    "CoreBluetooth_CBL2CAPChannel",
+    "CoreBluetooth_CBManager",
+    "CoreBluetooth_CBMutableCharacteristic",
+    "CoreBluetooth_CBMutableDescriptor",
+    "CoreBluetooth_CBMutableService",
+    "CoreBluetooth_CBPeer",
+    "CoreBluetooth_CBPeripheral",
+    "CoreBluetooth_CBPeripheralManager",
+    "CoreBluetooth_CBService",
+    "CoreBluetooth_CBUUID",
+]
 CoreData = [
     "Foundation",
     "CoreData_NSAsynchronousFetchResult",
@@ -5558,6 +5617,7 @@ unstable-frameworks-macos-10-12 = [
     "CloudKit_all",
     "Contacts_all",
     "CoreAnimation_all",
+    "CoreBluetooth_all",
     "CoreData_all",
     "CoreLocation_all",
     "CoreWLAN_all",
