@@ -1233,6 +1233,8 @@ skipped = true
 skipped = true
 [protocol.CBCentralManagerDelegate.methods.centralManager_didDisconnectPeripheral_timestamp_isReconnecting_error]
 skipped = true
+[class.CBUUID.methods.UUIDWithCFUUID]
+skipped = true
 [class.OSALanguageInstance.methods.componentInstance]
 skipped = true
 # Needs `dispatch_queue_t`
